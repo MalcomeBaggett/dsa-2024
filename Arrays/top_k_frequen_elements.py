@@ -16,4 +16,4 @@ class Solution:
             for n in freq[i]:
                 res.append(n)
                 if len(res) == k:
-                    return k
+                    return res
